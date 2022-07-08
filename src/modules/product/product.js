@@ -20,6 +20,10 @@ export default class product {
     return this.type;
   }
 
+  get type() {
+    return this.type;
+  }
+
   get area() {
     return this.areaCalc();
   }
